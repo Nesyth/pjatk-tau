@@ -1,5 +1,7 @@
 language: python
 python:
  - "3.9"
+before_script:
+ - cd 1
 script:
  - python3 -m unittest tests.test_calculator
